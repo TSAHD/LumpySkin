@@ -1,0 +1,60 @@
+/* Place your CSS styles in this file */
+
+body{
+    background: hsl(32, 77%, 85%);
+}
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color: rgb(233, 48, 159);
+    width:60%;
+    margin-left: 250px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color: black;
+    width:60%;
+    margin-left: 250px;
+    
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 7px;
+    max-width: 600px;
+    border-radius: 7px;
+}
+
+label{
+    padding-left: 10px;
+    color:blue;
+}
+form select, form input {
+    
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    background: #f5f5f5;
+    font-size: 16px;
+    width:50%;
+
+}
+form button {
+    padding: 10px;
+    background: green;
+    border: 0;
+    color: white;
+    border-radius: 18px;
+    margin-bottom: 10px;
+    width: 100px;
+    align-items: center;
+    margin-left: 200px;
+}
